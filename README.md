@@ -51,4 +51,11 @@ node migrate-svc.js
 ```
 
 Things to note before executing the script:
-1. Escalation policies need to be created first 
+1. Escalation policies need to be created first
+
+## Sample Result from sample config file
+Escalation Policies
+![image](https://github.com/cloe-tang/splunk-oncall-migration-from-pagerduty/assets/58005106/ee4f0cbe-87c1-47ed-9fdd-f7b827cee36e)
+
+Routing Key 
+![image](https://github.com/cloe-tang/splunk-oncall-migration-from-pagerduty/assets/58005106/322284df-1285-4446-93a3-d607e0c9bf9c)
