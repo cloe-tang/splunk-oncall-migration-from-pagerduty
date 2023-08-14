@@ -1,0 +1,77 @@
+[
+  {
+    "id": "PISIKKJ",
+    "name": "cart",
+    "description": null,
+    "type": "team",
+    "summary": "cart",
+    "self": "https://api.pagerduty.com/teams/PISIKKJ",
+    "html_url": "https://demo.pagerduty.com/teams/PISIKKJ",
+    "default_role": "manager",
+    "parent": null,
+    "services": [
+        {
+            "id": "PM0TG88",
+            "name": "cart service",
+            "description": "Cart Services",
+            "created_at": "2019-10-02T13:39:37+08:00",
+            "updated_at": "2022-09-09T12:13:38+08:00",
+            "status": "warning",
+            "teams": [
+                {
+                    "id": "PISIKKJ",
+                    "name": "cart",
+                    "description": null,
+                    "type": "team",
+                    "summary": "cart",
+                    "self": "https://api.pagerduty.com/teams/PISIKKJ",
+                    "html_url": "https://demo.pagerduty.com/teams/PISIKKJ",
+                    "default_role": "manager",
+                    "parent": null
+                }
+            ],
+            "alert_creation": "create_alerts_and_incidents",
+            "addons": [],
+            "scheduled_actions": [],
+            "support_hours": null,
+            "last_incident_timestamp": "2023-06-16T03:36:27Z",
+            "escalation_policy": {
+                "id": "PCPI5JM",
+                "type": "escalation_policy_reference",
+                "summary": "cart-ep",
+                "self": "https://api.pagerduty.com/escalation_policies/PCPI5JM",
+                "html_url": "https://demo.pagerduty.com/escalation_policies/PCPI5JM"
+            },
+            "incident_urgency_rule": {
+                "type": "constant",
+                "urgency": "severity_based"
+            },
+            "acknowledgement_timeout": null,
+            "auto_resolve_timeout": null,
+            "alert_grouping": "intelligent",
+            "alert_grouping_timeout": null,
+            "alert_grouping_parameters": {
+                "type": "intelligent",
+                "config": {
+                    "time_window": 300,
+                    "recommended_time_window": 2259
+                }
+            },
+            "integrations": [
+                {
+                    "id": "PBME706",
+                    "type": "generic_events_api_inbound_integration_reference",
+                    "summary": "Datadog",
+                    "self": "https://api.pagerduty.com/services/PM0TG88/integrations/PBME706",
+                    "html_url": "https://demo.pagerduty.com/services/PM0TG88/integrations/PBME706"
+                }
+            ],
+            "response_play": null,
+            "type": "service",
+            "summary": "Cart",
+            "self": "https://api.pagerduty.com/services/PM0TG88",
+            "html_url": "https://demo.pagerduty.com/service-directory/PM0TG88"
+        }   
+    ]
+  }
+]

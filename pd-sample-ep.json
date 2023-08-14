@@ -1,0 +1,84 @@
+[
+    {
+        "id": "PDXH92N",
+        "name": "cart",
+        "description": null,
+        "type": "team",
+        "summary": "cart",
+        "self": "https://api.pagerduty.com/teams/PDXH92N",
+        "html_url": "https://demo.pagerduty.com/teams/PDXH92N",
+        "default_role": "manager",
+        "parent": null,
+        "escalation_policies": [
+            {
+                "id": "POV28D5",
+                "type": "escalation_policy",
+                "summary": "cart-ep",
+                "self": "https://api.pagerduty.com/escalation_policies/POV28D5",
+                "html_url": "https://demo.pagerduty.com/escalation_policies/POV28D5",
+                "name": "cart-ep",
+                "escalation_rules": [
+                    {
+                        "id": "P92FLDF",
+                        "escalation_delay_in_minutes": 15,
+                        "targets": [
+                            {
+                                "id": "PRZTCRV",
+                                "type": "schedule_reference",
+                                "summary": "cart (First Line)",
+                                "self": "https://api.pagerduty.com/schedules/PRZTCRV",
+                                "html_url": "https://demo.pagerduty.com/schedules/PRZTCRV"
+                            },
+                            {
+                                "id": "P9E1JST",
+                                "type": "schedule_reference",
+                                "summary": "cart (Shadow On Call)",
+                                "self": "https://api.pagerduty.com/schedules/P9E1JST",
+                                "html_url": "https://demo.pagerduty.com/schedules/P9E1JST"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "PHT1NYF",
+                        "escalation_delay_in_minutes": 15,
+                        "targets": [
+                            {
+                                "id": "P0YPAWE",
+                                "type": "user_reference",
+                                "summary": "cloe tang",
+                                "self": "https://api.pagerduty.com/users/P0YPAWE",
+                                "html_url": "https://demo.pagerduty.com/users/P0YPAWE"
+                            }
+                        ]
+                    }
+                ],
+                "services": [
+                    {
+                        "id": "PZC3IG2",
+                        "type": "service_reference",
+                        "summary": "Build",
+                        "self": "https://api.pagerduty.com/services/PZC3IG2",
+                        "html_url": "https://demo.pagerduty.com/service-directory/PZC3IG2"
+                    }
+                ],
+                "num_loops": 0,
+                "teams": [
+                    {
+                        "id": "PDXH92N",
+                        "name": "cart",
+                        "description": null,
+                        "type": "team",
+                        "summary": "cart",
+                        "self": "https://api.pagerduty.com/teams/PDXH92N",
+                        "html_url": "https://demo.pagerduty.com/teams/PDXH92N",
+                        "default_role": "manager",
+                        "parent": null
+                    }
+                ],
+                "description": "",
+                "on_call_handoff_notifications": "if_has_services",
+                "privilege": null
+            }
+        ]
+    }
+]

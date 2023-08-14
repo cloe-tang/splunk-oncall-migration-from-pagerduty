@@ -8,6 +8,12 @@ These scripts are written in nodejs. Perform the following to run the migration 
 ```
 npm install
 ```
+3. Create a .env in the same folder as the script. Provide the SPLUNK_API_ID and SPLUNK_API_KEY like the following 
+```
+SPLUNK_API_ID=<your API ID>
+SPLUNK_API_KEY=<your API Key>
+```
+
 
 ## Migrate Pagerduty Escalation Policies to Splunk On-Call
 The migrate-ep.js script will read the escalation policies configuration exported via Pagerduty API and create the escalation policies in Splunk On-Call. Edit the following before executing the script. 

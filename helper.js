@@ -66,7 +66,7 @@ const getRotationSlug = async (teamSlug, label) => {
 const getUsername = async (id) => {
 
   // Read PagerDuty List User JSON to find user email
-  const pdfilename = `pd-list-user.json`
+  const pdfilename = `pd-sample-user.json`
 
   const fileContent = await fs.readFileSync(pdfilename);
   const parsedFileContent = JSON.parse(fileContent);

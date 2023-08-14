@@ -1,0 +1,202 @@
+[  
+    {
+        "name": "cloe tang",
+        "email": "cloet@splunk.com",
+        "time_zone": "Asia/Kuala_Lumpur",
+        "color": "medium-violet-red",
+        "avatar_url": "https://secure.gravatar.com/avatar/efea0bfb9f43c8a441b8d32f29d48aab.png?d=mm&r=PG",
+        "billed": true,
+        "role": "observer",
+        "description": null,
+        "invitation_sent": true,
+        "job_title": null,
+        "teams": [
+            {
+                "id": "PXVU9OQ",
+                "name": "SRE",
+                "description": null,
+                "type": "team",
+                "summary": "SRE",
+                "self": "https://api.pagerduty.com/teams/PXVU9OQ",
+                "html_url": "https://demo.pagerduty.com/teams/PXVU9OQ",
+                "default_role": "manager",
+                "parent": null
+            },
+            {
+                "id": "PC2W79D",
+                "name": "Food",
+                "description": null,
+                "type": "team",
+                "summary": "Food",
+                "self": "https://api.pagerduty.com/teams/PC2W79D",
+                "html_url": "https://demo.pagerduty.com/teams/PC2W79D",
+                "default_role": "manager",
+                "parent": null
+            },
+            {
+                "id": "PITGV0X",
+                "name": "OnCall Leadership",
+                "description": null,
+                "type": "team",
+                "summary": "OnCall Leadership",
+                "self": "https://api.pagerduty.com/teams/PITGV0X",
+                "html_url": "https://demo.pagerduty.com/teams/PITGV0X",
+                "default_role": "manager",
+                "parent": null
+            },
+            {
+                "id": "PWOYG0L",
+                "name": "Oncall Senior Manager",
+                "description": null,
+                "type": "team",
+                "summary": "Oncall Senior Manager",
+                "self": "https://api.pagerduty.com/teams/PWOYG0L",
+                "html_url": "https://demo.pagerduty.com/teams/PWOYG0L",
+                "default_role": "manager",
+                "parent": null
+            }
+        ],
+        "contact_methods": [
+            {
+                "id": "PTRK0QW",
+                "type": "email_contact_method",
+                "summary": "Default",
+                "self": "https://api.pagerduty.com/users/P0YPAWE/contact_methods/PTRK0QW",
+                "html_url": null,
+                "label": "Default",
+                "address": "sample@demo.com",
+                "send_short_email": false,
+                "send_html_email": true
+            },
+            {
+                "id": "PZJNX2Z",
+                "type": "phone_contact_method",
+                "summary": "Work",
+                "self": "https://api.pagerduty.com/users/P0YPAWE/contact_methods/PZJNX2Z",
+                "html_url": null,
+                "label": "Work",
+                "address": "87105751",
+                "blacklisted": false,
+                "country_code": 65
+            },
+            {
+                "id": "PH4JYUP",
+                "type": "push_notification_contact_method",
+                "summary": "A063",
+                "self": "https://api.pagerduty.com/users/P0YPAWE/contact_methods/PH4JYUP",
+                "html_url": null,
+                "label": "A063",
+                "address": "xxx",
+                "device_type": "android",
+                "sounds": [],
+                "blacklisted": false,
+                "created_at": "2023-03-22T13:54:37+08:00"
+            },
+            {
+                "id": "PW9MWQ9",
+                "type": "sms_contact_method",
+                "summary": "Home",
+                "self": "https://api.pagerduty.com/users/P0YPAWE/contact_methods/PW9MWQ9",
+                "html_url": null,
+                "label": "Home",
+                "address": "12345678",
+                "blacklisted": false,
+                "country_code": 65,
+                "enabled": true
+            }
+        ],
+        "notification_rules": [
+            {
+                "id": "PA4VJ86",
+                "type": "assignment_notification_rule",
+                "summary": "0 minutes: channel PTRK0QW",
+                "self": "https://api.pagerduty.com/users/P0YPAWE/notification_rules/PA4VJ86",
+                "html_url": null,
+                "start_delay_in_minutes": 0,
+                "contact_method": {
+                    "id": "PTRK0QW",
+                    "type": "email_contact_method",
+                    "summary": "Default",
+                    "self": "https://api.pagerduty.com/users/P0YPAWE/contact_methods/PTRK0QW",
+                    "html_url": null,
+                    "label": "Default",
+                    "address": "sample@demo.com",
+                    "send_short_email": false,
+                    "send_html_email": true
+                },
+                "urgency": "high"
+            },
+            {
+                "id": "PDDGJKW",
+                "type": "assignment_notification_rule",
+                "summary": "0 minutes: channel PTRK0QW",
+                "self": "https://api.pagerduty.com/users/P0YPAWE/notification_rules/PDDGJKW",
+                "html_url": null,
+                "start_delay_in_minutes": 0,
+                "contact_method": {
+                    "id": "PTRK0QW",
+                    "type": "email_contact_method",
+                    "summary": "Default",
+                    "self": "https://api.pagerduty.com/users/P0YPAWE/contact_methods/PTRK0QW",
+                    "html_url": null,
+                    "label": "Default",
+                    "address": "sample@demo.com",
+                    "send_short_email": false,
+                    "send_html_email": true
+                },
+                "urgency": "low"
+            },
+            {
+                "id": "PIW25DT",
+                "type": "assignment_notification_rule",
+                "summary": "0 minutes: channel PZJNX2Z",
+                "self": "https://api.pagerduty.com/users/P0YPAWE/notification_rules/PIW25DT",
+                "html_url": null,
+                "start_delay_in_minutes": 0,
+                "contact_method": {
+                    "id": "PZJNX2Z",
+                    "type": "phone_contact_method",
+                    "summary": "Work",
+                    "self": "https://api.pagerduty.com/users/P0YPAWE/contact_methods/PZJNX2Z",
+                    "html_url": null,
+                    "label": "Work",
+                    "address": "87105751",
+                    "blacklisted": false,
+                    "country_code": 65
+                },
+                "urgency": "high"
+            },
+            {
+                "id": "PYPA9BS",
+                "type": "assignment_notification_rule",
+                "summary": "0 minutes: channel PH4JYUP",
+                "self": "https://api.pagerduty.com/users/P0YPAWE/notification_rules/PYPA9BS",
+                "html_url": null,
+                "start_delay_in_minutes": 0,
+                "contact_method": {
+                    "id": "PH4JYUP",
+                    "type": "push_notification_contact_method",
+                    "summary": "A063",
+                    "self": "https://api.pagerduty.com/users/P0YPAWE/contact_methods/PH4JYUP",
+                    "html_url": null,
+                    "label": "A063",
+                    "address": "e1AHq0UaTUm5EUEB3abpgu:APA91bFsdTC39WoD4haEq2zDO_4tqRHdNMevZBGlhzyeNKWI6tLoCz-4PMyw6AhtzrM2uaQKNv63toC7gBKRuU_A0VCTFXIXLXy4FaWt7dYZl9j6wd1DnKGK608sreSBXmf1s5iNTHm1",
+                    "device_type": "android",
+                    "sounds": [],
+                    "blacklisted": false,
+                    "created_at": "2023-03-22T13:54:37+08:00"
+                },
+                "urgency": "high"
+            }
+        ],
+        "subdomains": [
+            "demo"
+        ],
+        "coordinated_incidents": [],
+        "id": "P0YPAWE",
+        "type": "user",
+        "summary": "cloe tang",
+        "self": "https://api.pagerduty.com/users/P0YPAWE",
+        "html_url": "https://demo.pagerduty.com/users/P0YPAWE"
+    }
+]

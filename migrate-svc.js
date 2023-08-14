@@ -4,8 +4,8 @@ const util = require("util");
 const helper = require("./helper");
 
 // Set PagerDuty's "services" Export (file in JSON)
-const fileName = `<<Pagerduty Service Exported Config>>.json`;
-let onboardTeam = `<<Team to onboard>>`;
+const fileName = `pd-sample-svc.json`;
+//let onboardTeam = `<<Team to onboard>>`;
 
 (async () => {
   const fileContent = await fs.readFileSync(fileName);
@@ -16,9 +16,9 @@ let onboardTeam = `<<Team to onboard>>`;
   for (const team of parsedFileContent) {
     
     // Break loop if not the intended team
-    if (team.summary != onboardTeam) {
-      continue;
-    }
+    //if (team.summary != onboardTeam) {
+    //  continue;
+    //}
 
     // Exit Program if No Services Detected
     if (

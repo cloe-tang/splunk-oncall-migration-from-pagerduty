@@ -4,8 +4,8 @@ const util = require("util");
 const helper = require("./helper");
 
 // Set PagerDuty's "escalation_policies" Export (file in JSON)
-const fileName = `<<Pagerduty EP Exported Config>>.json`;
-let onboardTeam = `<<Team to onboard>>`;
+const fileName = `pd-sample-ep.json`;
+//let onboardTeam = `<<Team to onboard>>`;
 
 (async () => {
   const fileContent = await fs.readFileSync(fileName);
@@ -15,9 +15,9 @@ let onboardTeam = `<<Team to onboard>>`;
   for (const team of parsedFileContent) {
 
     // Go to the next record if not the intended team
-    if (team.summary != onboardTeam) {
-      continue;
-    }
+    //if (team.summary != onboardTeam) {
+    //  continue;
+    //}
 
     // Exit Program if No Escalation Policies Detected
     if (
